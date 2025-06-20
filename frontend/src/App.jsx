@@ -14,7 +14,7 @@ import UserOffer from "./components/user/UserOffer";
 import AllShops from "./components/user/AllShop";
 import CommonOffer from "./components/user/CommonOffer";
 import Home from "./components/user/Home/Home"
-// import UserProfile from "./components/user/Profile/profile";
+import UserProfile from "./components/user/Profile/Profile";
 import OfferDetail from "./components/user/OfferD";
 import Notification from "./components/user/Notification";
 import ShopDetails from "./components/user/Shop";
@@ -48,7 +48,7 @@ function App() {
         <Route path="/common-offers/:ownerId" element={<CommonOffer />} />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        {/* <Route path="/youraccount" element={<UserProfile />} /> */}
+        <Route path="/youraccount" element={<UserProfile />} />
         <Route path="/offer/:id" element={<OfferDetail />} />
         <Route path="/notification" element={<Notification />} />
         <Route path="/shop/:id" element={<ShopDetails />} />
